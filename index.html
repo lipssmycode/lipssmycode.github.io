@@ -315,7 +315,7 @@
 <p><strong>REST的出处</strong><br>Roy Fielding的毕业论文。这哥们参与设计HTTP协议，也是Apache Web Server项目（可惜现在已经是 nginx 的天下）的co-founder。PhD的毕业学校是 UC Irvine，Irvine在加州，有着充裕的阳光和美丽的海滩，是著名的富人区。Oculus VR 的总部就坐落于此（虚拟现实眼镜，被FB收购，CTO为Quake和Doom的作者 John Carmack）。<br>众说周知，论文都是晦涩难懂的。当年在CMU读书的时候，很多课程都会安排每周两篇的Paper review。现在回想起来每次写Paper review都是我最为痛苦的时候。REST这篇博士论文毫无疑问更甚。<br>论文地址：<a href="https://link.zhihu.com/?target=http%3A//www.ics.uci.edu/~fielding/pubs/dissertation/top.htm">Architectural Styles and the Design of Network-based Software Architectures</a><br>REST章节：<a href="https://link.zhihu.com/?target=http%3A//www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm">Fielding Dissertation: CHAPTER 5: Representational State Transfer (REST)</a></p>
 <p><strong>RESTful API</strong><br>实用的是如何正确地理解 RESTful架构和设计好RESTful API。</p>
 <p><strong>首先为什么要用RESTful结构呢？</strong><br>大家都知道”<strong>古代</strong>“网页是前端后端融在一起的，比如之前的PHP，JSP等。在之前的桌面时代问题不大，但是近年来移动互联网的发展，各种类型的Client层出不穷，RESTful可以通过一套统一的接口为 Web，iOS和Android提供服务。另外对于广大平台来说，比如Facebook platform，微博开放平台，微信公共平台等，它们不需要有显式的前端，只需要一套提供服务的接口，于是RESTful更是它们最好的选择。在RESTful架构下：</p>
-<img src="RestTemplate-in-SpringBoot\06ee404783540f0af299042057738a99_720w.jpg" alt="img" style="zoom:Infinity%;" />
+<img src="/2020/04/20/RestTemplate-in-Springboot/06ee404783540f0af299042057738a99_720w.jpg" alt="img" style="zoom:Infinity%;">
 
 <p><strong>Server的API如何设计才满足RESTful要求?</strong><br>首先是简洁版里面的那几点。外加一些附带的 best practices：</p>
 <ol>
